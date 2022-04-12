@@ -1,0 +1,48 @@
+<!-- div class é para identificar um grupo de elementos (se usa . para chamar eles)
+     div id é para identificar um único elemento (se usa # para chamar ele)
+
+     exemplo:
+
+     <div id="um"> </div>
+     <div class="generico"> </div>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet"> <!-- href = hyperlink referencial | rel = relative to  | stylesheet (folha de estilos) [resumindo, ele linka varias coisas como hyperlinks de css entendendo que são relativos a stylesheet] -->
+    <title>vel'koz</title>
+</head>
+<body>
+    <!-- css inline = é usado dentro da linha depois de atribuir o "style" dentro da tag -->
+    <header style="background-color: #A51D93; height: 10vh;">
+        <img src="./assets/img/logo.png" alt="Este é o vel'koz!" width="50vh"> <!-- src = source | usar ./ usa o caminho absoluto (ou seja, ele procura o arquivo a partir próprio local | alt = alternância -> é usado para a acessibilidade, onde o leitor de texto irá ler o alt para informar do que é a imagem para a pessoa com deficiência) -->
+    </header>
+    <main> 
+        main 
+
+        <div id="one"> a </div> <!-- div = divisor | é usado para separar o conteúdo do site quando não tem a tag semântica correspondente -->
+
+        <div> b </div>
+
+        <div class="generico"> c </div>
+        
+        <div class="generico"> d </div>
+
+    </main>
+    <footer> footer </footer>
+
+
+    <!-- css internal = usa dentro de uma tag style -->
+    <style>
+        main {
+            /* vh = viewport height (tamanho da tela do usuário na altura) | vw = viewport weight (tamanho da tela do usuário na largura) */
+            background-color: #D125B9;
+            /*height: 80vh; /* não usar pixel (px), usar vh é muito mais responsivo, pq irá mudar de dispositivo para dispositivo! */
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,34 @@
+/* se usa # para chamar o id
+   se usa . para chamar o class
+*/
+
+
+* { /* * usa as configurações a seguir em todas as tags do site! */
+    margin: 0;
+    padding: 0;
+
+    /* margin e padding cada navegador tem o seu predefinido, é necessário que sempre use esse comando quando for começar a fazer um site, para arrumar as margens independente do navegador usado! */
+}
+
+footer {
+    background-color: #1DA530;
+    height: 10vh;
+}
+
+div {
+    background-color: #C3FF00;
+    height: 200px;
+    width: 200px;
+
+    /* aqui é para definir espaços em volta do elemento da tag e sua margem inferior */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div#one { /* é uma boa pratica colocar a tag dele antes o # */
+    background-image: linear-gradient(rgb(200, 188, 22), #5c32a0);
+}
+
+div.generico { /* é uma boa pratica colocar a tag dele antes o . */
+    background-color: red;
+}
