@@ -15,10 +15,30 @@ div#container_flex {
     display: flex;
     gap: 10px;
     justify-content: center;
+    align-items: center;
+    /* f */
 }
 
 div.boxes {
     background-color: blueviolet;
     width: 50px;
     height: 50px;
+}
+
+button {
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+
+
+
+
+}
+    
+button:hover {
+    background-color: aliceblue;
+    color: blueviolet;
 }
